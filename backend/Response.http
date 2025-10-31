@@ -1,0 +1,14 @@
+GET http://localhost:3000/tasks/
+
+###
+
+POST http://localhost:3000/tasks/
+
+{
+  "title": "Test",
+  "description": "API test",
+  "priority": "High",
+  "dueDate": "2025-01-02"
+}
+
+###
